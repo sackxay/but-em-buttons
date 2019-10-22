@@ -1,0 +1,16 @@
+html {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url("../img/seamless-starfield-texture.png");
+}
+
+.btn {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.btn:hover {
+  color: rgba(255, 0, 0, 0.8);
+}
