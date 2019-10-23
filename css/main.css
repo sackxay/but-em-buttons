@@ -4,13 +4,19 @@ html {
 }
 
 body {
-  background-image: url("../img/seamless-starfield-texture.png");
+  background-image: url("../images/starfield.png");
 }
 
 .btn {
   color: rgba(255, 0, 0, 0.5);
+  border: 3px #b4fff4;
+  border-radius: 3px;
 }
 
 .btn:hover {
   color: rgba(255, 0, 0, 0.8);
+}
+
+.btn-ghost {
+  color: #fff;
 }
