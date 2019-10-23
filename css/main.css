@@ -6,3 +6,51 @@ html {
 section {
   background-image: url("../images/starfield.png");
 }
+
+.main-btn {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b4fff4;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.main-btn:hover {
+  background-color: rgba(180, 255, 244, 0);
+  border-color: #90ccc3;
+}
+
+.btn-ghost {
+  background-color: rgba(180, 255, 244, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b4fff4;
+  border-radius: 15px;
+  transition: all .2s linear;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+}
+
+.btn-ghost:active {
+  top: -10px;
+}
+
+.rocket:hover {
+  -webkit-animation: bounce 1s linear infinite;
+}
+
+@-webkit-keyframes bounce {
+
+  from {
+    -webkit-transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-.4em);
+  }
+
+}
